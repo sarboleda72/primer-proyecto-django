@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Publicado perro</title>
+</head>
+<body>
+  <h1>Bienvenidos a todos :V a mi</h1>
+<div>
+    El número de personas es: {{no_personas}}
+</div>
+<div>
+    <ul>
+        {% for persona in personas %}
+        <li>El nombre de la persona es: {{ persona.nombre }}</li>
+        {% endfor %}
+    </ul>
+</div>
+</body>
+</html>
